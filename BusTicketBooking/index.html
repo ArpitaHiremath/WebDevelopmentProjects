@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Bus Ticket Booking</title>
+</head>
+<body>
+  <h1 style="color:brown">Online KSRTC Bus Ticket Booking</h1>
+  <img src="images/ksrtc.jpg" width="600" height="350">
+   <br><br>
+  <form method="post" action="/">
+    <label style="color: blue;">Travel Date: </label>
+    <input type="date" name="DD-MM-YYYY"><br><br>
+
+    <label style="color: blue;">From:</label>
+    <select name="bus1" id="bus1"> 
+      <option value="">Select a bus</option>
+      <option value="Kpl">Koppal </option>
+      <option value="Ubl">hubli </option>
+      <option value="Gvt">Gangavathi</option>
+      <option value="Mys">Mysore</option>
+    </select>
+    
+    <label style="color: blue;">To:</label>
+    <select name="bus2" id="bus2" > 
+      <option value="">Select a bus</option>
+      <option value="Kpl">Koppal </option>
+      <option value="Ubl">hubli </option>
+      <option value="Gvt">Gangavathi</option>
+      <option value="Mys">Mysore</option>
+    </select><br><br>
+
+    <label style="color: blue;">Number of Adults:</label>
+    <input type="number"name="adults" ><br><br>
+
+    <label style="color: blue;">Number of Children:</label>
+    <input type="number" name="children"><br><br>
+
+    <input type="submit" value="Book Now">
+  </form>
+</body>
+</html>
